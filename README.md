@@ -49,17 +49,28 @@ A chunk is a time-discrete event in a [stream](https://github.com/ovsoinc/nile.c
 
 #### Types
 
-##### [Message](./Message.js)
+##### [Text](./lib/Text.js)
+
+``` javascript
+{
+	"type": "text",
+	"content": "Hello, World",
+	"date": 1544551774794,
+	"source": "telegram"
+}
+```
+
+##### [Message](./lib/Message.js)
 
 ``` javascript
 {
 	"type": "message",
 	"content": {
-                "user": "Monty",
-                "text": "Hello",
-                "url": "http://telegram.com/"
-        },
-        "date": 1544551774794,
-        "source": "telegram"
+		"user": "Monty",
+		"text": "Hello",
+		"url": "http://telegram.com/"
+	},
+	"date": 1544551774794,
+	"source": "telegram"
 }
 ```
