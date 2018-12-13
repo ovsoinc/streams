@@ -13,9 +13,9 @@ const message = createChunk({
 		"user": "Monty",
 		"text": "Hello",
 		"url": "http://telegram.com/"
-    },
-    "date": 1544551774794,
-    "source": "telegram"
+	},
+	"date": 1544551774794,
+	"source": "telegram"
 });
 
 message.toTerms();
@@ -24,8 +24,8 @@ message.toTerms();
 const text = createChunk({
 	"type": "text",
 	"content": "Hello, World",
-    "date": 1544551774794,
-    "source": "telegram"
+	"date": 1544551774794,
+	"source": "telegram"
 });
 
 text.toTerms();
